@@ -97,7 +97,7 @@
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: `grant_type=client_credentials&client_id=rb0D0wW8YnLbc64TknQGbsu8Y8vgj04D&client_secret=AVbRkRKkAWGowDf6`
+            body: `grant_type=client_credentials&client_id=&client_secret=`
         });
 
         const authData = await authResponse.json();
